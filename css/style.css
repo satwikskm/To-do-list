@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Roboto', sans-serif;
+   background: rgba(243, 232, 232, 0.815);
+}
+
+input{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 30%;
+}
+
+#new-task-form{
+    margin-left: 550px;
+}
+
+#submit{
+    border: none;
+    background: #0088ff;
+    color: aliceblue;
+    width: 10%;
+}
+.heading{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#task{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.task{
+    display: flex;
+}
+.text{
+    width: 100%;
+    transform: translate(550px,0);
+}
+
+.actions{
+    transform: translate(650px, 20px);
+
+}
+
+.edit{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: #0088ff;
+    color: aliceblue;
+    border: none;
+}
+
+.delete{
+    margin-left: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #e02b50;
+    color: aliceblue;
+}
+
+
